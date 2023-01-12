@@ -2,7 +2,7 @@
 
 ## How to write lints?
 
-Use [nag-toolkit] library, call `declare_lints!()` macro and export resulting `::register()` function: see <example-nag-linter/src/lints.rs> as an example.
+Use [nag-toolkit] library, call `declare_lints!()` macro and export resulting `::register()` function: see [example-nag-linter/src/lints.rs][ex-lints] as an example.
 
 You can provide a crate with lints for the users of your library or just write them in the same crate as your linter.
 
@@ -10,7 +10,7 @@ You can provide a crate with lints for the users of your library or just write t
 
 ## How to write a linter?
 
-Use [nag-driver] library, call `nag_driver::run()` or `nag_driver::Driver::with_callback()` and then `.run()`: see <example-nag-linter/src/main.rs> as an example.
+Use [nag-driver] library, call `nag_driver::run()` or `nag_driver::Driver::with_callback()` and then `.run()`: see [example-nag-linter/src/main.rs][ex-main] as an example.
 
 ## How to use a linter?
 
@@ -21,3 +21,5 @@ It will compile and run a linter for you.
 [nag-driver]: https://docs.rs/nag-driver
 [nightly-rustc]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lint/trait.LateLintPass.html
 [LateLintPass]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lint/trait.LateLintPass.html
+[ex-lints]: example-nag-linter/src/lints.rs
+[ex-main]: example-nag-linter/src/main.rs
