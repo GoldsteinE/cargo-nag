@@ -1,7 +1,13 @@
 [package]
 name = "nag-toolkit"
 version = "0.1.0"
+authors = ["Maximilian Siling <root@goldstein.rs>"]
 edition = "2021"
+description = "Toolkit for writing custom cargo-nag lints"
+repository = "https://github.com/GoldsteinE/cargo-nag"
+license = "MIT OR Apache-2.0"
+keywords = ["linter", "lint", "lints", "cargo", "cargo-plugin"]
+categories = ["command-line-utilities", "development-tools::cargo-plugins"]
 
 [package.metadata.rust-analyzer]
 rustc_private = true

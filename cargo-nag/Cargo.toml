@@ -1,11 +1,15 @@
 [package]
 name = "cargo-nag"
-version = "0.0.0"
+version = "0.1.0"
+authors = ["Maximilian Siling <root@goldstein.rs>"]
 edition = "2021"
-publish = false
+description = "Custom lints runner"
+repository = "https://github.com/GoldsteinE/cargo-nag"
+license = "MIT OR Apache-2.0"
+keywords = ["linter", "lint", "lints", "cargo", "cargo-plugin"]
+categories = ["command-line-utilities", "development-tools::cargo-plugins"]
 
 [dependencies]
 color-eyre = "0.6.2"
 serde = { version = "1.0.152", features = ["derive"] }
 serde_json = "1.0.91"
-toml = "0.5.10"
