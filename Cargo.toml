@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "nag-driver",
+    "nag-toolkit",
+    "cargo-nag",
+]
+
+exclude = [
+    "example-nag-linter",
+    "rustc-src/rust/compiler/rustc",
+]
