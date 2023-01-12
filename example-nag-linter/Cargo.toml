@@ -1,0 +1,11 @@
+[package]
+name = "example-nag-linter"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.rust-analyzer]
+rustc_private = true
+
+[dependencies]
+nag-driver = { version = "0.1.0" }
+nag-toolkit = { version = "0.1.0" }
