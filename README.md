@@ -17,8 +17,8 @@ Use [nag-driver] library, call `nag_driver::run()` or `nag_driver::Driver::with_
 Install `cargo-nag` binary. Set `CARGO_NAG_LINTER_DIR` environment variable to the absolute path to your linter source code, then run `cargo nag`.
 It will compile and run a linter for you.
 
-[nag-toolkit]: https://docs.rs/nag-toolkit
-[nag-driver]: https://docs.rs/nag-driver
+[nag-toolkit]: https://goldstein.rs/cargo-nag/nag_toolkit/
+[nag-driver]: https://goldstein.rs/cargo-nag/nag_driver/
 [nightly-rustc]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lint/trait.LateLintPass.html
 [LateLintPass]: https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lint/trait.LateLintPass.html
 [ex-lints]: example-nag-linter/src/lints.rs
